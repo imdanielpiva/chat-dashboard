@@ -14,15 +14,7 @@
 export default {}
 </script>
 
-<style lang="stylus">
-@import '~variables'
+<style>
 
-main
-  text-align center
-  margin-top 40px
-
-header
-  margin 0
-  height 10px
-  background-color $primary
 </style>
+
