@@ -41,8 +41,7 @@ export default {
     name: String,
     avatar: String,
     text: Array,
-    status: Object,
-    spinner: Object
+    status: Object
   },
   computed: {
     textClass () {
