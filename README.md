@@ -1,8 +1,8 @@
-# Quasar PWA App
+# Chat Dashboard PWA 
 
-> A Quasar PWA project
+This a chat dashboard project to work with [this chat client](https://github.com/imdanielpiva/client-chat-ui).
 
-## Build Setup
+## Build
 
 ``` bash
 # install dependencies
