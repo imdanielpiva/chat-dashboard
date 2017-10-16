@@ -1,11 +1,9 @@
 <template>
   <!-- Don't drop "q-app" class -->
   <div id="q-app">
-    <header></header>
-    <main>
-      <img src="~assets/quasar-logo-full.svg" alt="Quasar PWA">
+    <div>
       <router-view></router-view>
-    </main>
+    </div>
   </div>
 </template>
 

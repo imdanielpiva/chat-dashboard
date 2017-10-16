@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Hello from '@/Hello.vue';
+import Index from './views/index/Index.vue';
 
 Vue.use(VueRouter);
 
@@ -28,6 +28,6 @@ export default new VueRouter({
    */
 
   routes: [
-    { path: '/', component: Hello }
+    { path: '/', component: Index }
   ]
 });
