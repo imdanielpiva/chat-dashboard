@@ -11,7 +11,7 @@
 
 <script>
 import { QLayout, QToolbar, QToolbarTitle } from 'quasar';
-import Chat from '../chat/Chat';
+import Chat from '../../modules/chat/Chat';
 
 export default {
   components: {

@@ -1,1 +1,5 @@
-import * as TYPES from './types';
+import * as TYPES from './mutation-types';
+
+export default {
+
+};
