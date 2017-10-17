@@ -21,7 +21,7 @@
         >
           <span class="q-message-text-content" :class="textClass">
             <p>{{ msg }}</p>
-            <!-- <chat-stamp :props="{ status, id }" /> -->
+            <chat-stamp :props="{ status, id }" />
           </span>
         </div>
       </div>
@@ -30,6 +30,8 @@
 </template>
 
 <script>
+import { ChatSpinner, ChatStamp } from './';
+
 export default {
   name: 'dash-chat',
   props: {
@@ -42,6 +44,9 @@ export default {
     avatar: String,
     text: Array,
     status: Object
+  },
+  components: {
+    ChatStamp
   },
   computed: {
     textClass () {
