@@ -2,10 +2,10 @@
   <q-layout>
     <q-toolbar color="dark">
       <q-toolbar-title>Chat Dashboard</q-toolbar-title>
-      <div>
-        <chat></chat>
-      </div>
     </q-toolbar>
+    <div>
+      <chat></chat>
+    </div>
   </q-layout>
 </template>
 
